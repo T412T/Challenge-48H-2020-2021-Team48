@@ -9,6 +9,7 @@
       $result = $pdo5->query("SELECT * FROM image  WHERE tag = '$_GET[tag]';");
       while($info = $result->fetch(PDO::FETCH_OBJ)) {?>
       <img src="<?php echo $info->link;?>" alt="img">
+      <?php echo '<p><a href="download.php?file=' . urlencode($info->name) . '">Download</a></p>';?>
       <?php }?>
     </body>
 </html>

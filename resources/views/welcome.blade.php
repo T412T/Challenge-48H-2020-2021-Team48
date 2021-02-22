@@ -14,6 +14,7 @@ $info = $result->fetch(PDO::FETCH_OBJ);?>
 
       <?php while($info2 = $result2->fetch(PDO::FETCH_OBJ)) {?>
       <img src="<?php echo $info2->link;?>" alt="img">
+       <?php echo '<p><a href="download.php?file=' . urlencode($info2->name) . '">Download</a></p>';?>
       <?php }?>
     </body>
 </html>
