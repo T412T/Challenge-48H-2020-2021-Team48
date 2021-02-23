@@ -75,7 +75,7 @@ $info3 = $result3->fetch(PDO::FETCH_OBJ);
                       <select name="tag2" id="tag2">
                         <option value="">--Please choose an option--</option>
                         <option value="produit">produit</option>
-                        <option value="ambience">ambience</option>
+                        <option value="ambience">ambiance</option>
                       </select>
 
                       <select name="tag" id="tag">
