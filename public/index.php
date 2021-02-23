@@ -70,19 +70,25 @@ $info3 = $result3->fetch(PDO::FETCH_OBJ);
 
 
 	<div class="container">
-
-    <select name="pets" id="pet-select">
+<form class="" action="tag.php?tag=<?php echo $_POST['tag2']?>?tag2=<?php echo $_POST['tag']?>?tag2=<?php echo $_POST['tag3']?>">
+    <select name="tag2" id="tag2">
       <option value="">--Please choose an option--</option>
-      <option value="dog">produit</option>
-      <option value="cat">ambience</option>
+      <option value="produit">produit</option>
+      <option value="ambience">ambience</option>
     </select>
-<form class="" action="tag.php?tag=<?php echo $_POST['tag']?>">
+
     <select name="tag" id="tag">
       <option value="">--Please choose an option--</option>
       <?php while($info3 = $result3->fetch(PDO::FETCH_OBJ)) {?>
       <option value="<?php echo $info3->tag;?>"><?php echo $info3->tag;?></option>
     <?php } $_POST["tag"] = htmlentities($_POST["tag"], ENT_QUOTES);?>
       <option value="goldfish">...</option>
+    </select>
+
+    <select name="tag3" id="tag3">
+      <option value="">--Please choose an option--</option>
+      <option value="horizontal">horizontal</option>
+      <option value="vertical">vertical</option>
     </select>
   <button type="submit" class="btn btn-primary">Chercher</button>
 
