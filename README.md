@@ -1,3 +1,22 @@
+"# Challenge-48H-2020-2021-Team48" 
+
+"#Voici les documest partager crée sur google doc:"
+
+"# Power point : https://docs.google.com/presentation/d/1Q47XXmEsSD7-KbgTWj4rfNgUbt_PfRQq5SGsh3qKG6o/edit?usp=sharing"
+
+"# Word : https://docs.google.com/document/d/1WnF0HT11pYGfsV8S3uBFszULzwgFikWziSYaBR1TJmQ/edit?usp=sharing"
+
+"# si jamais les documents ne sont pas accessible merci de contacter Jean-Maxime ALEXANDRE"
+
+                   
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
