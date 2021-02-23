@@ -39,9 +39,8 @@
 					<div class="main-navigation">
 						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 						<ul class="menu">
-							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item current-menu-item"><a href="index.php">Home</a></li>
 							<li class="menu-item"><a href="add.php">image</a></li>
-							<li class="menu-item"><a href="live-cameras.html">tag</a></li>
 
 						</ul> <!-- .menu -->
 					</div> <!-- .main-navigation -->
@@ -55,10 +54,10 @@
 
 
 				<div class="fullwidth-block">
-<div class="row">
+
 
     <div class="container">
-
+<div class="row" style="margin-bottom:220px;">
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
     </head>
@@ -68,7 +67,7 @@
       $result = $pdo5->query("SELECT * FROM image  WHERE tag = '$_GET[tag]' and tag2 = '$_GET[tag2]' and tag3 = '$_GET[tag3]';");
       while($info = $result->fetch(PDO::FETCH_OBJ)) {?>
         <div class="col-md-3 col-sm-6">
-          <div class="live-camera">
+          <div class="live-camera" >
       <img src="<?php echo $info->link;?>" alt="img" style="width:300px; height:200px; padding-right: 50px;">
       <?php echo '<p><a href="download.php?file=' . urlencode($info->name) . '">Download</a></p>';?>
 

@@ -41,7 +41,7 @@ $info3 = $result3->fetch(PDO::FETCH_OBJ);
 					<a href="index.html" class="branding">
 						<img src="images/logo.png" alt="" class="logo">
 						<div class="logo-type">
-							<h1 class="site-title">nom</h1>
+							<h1 class="site-title">Passion froid</h1>
 
 						</div>
 					</a>
@@ -52,7 +52,6 @@ $info3 = $result3->fetch(PDO::FETCH_OBJ);
 						<ul class="menu">
 							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
 							<li class="menu-item"><a href="add.php">image</a></li>
-							<li class="menu-item"><a href="live-cameras.html">tag</a></li>
 
 						</ul> <!-- .menu -->
 					</div> <!-- .main-navigation -->
